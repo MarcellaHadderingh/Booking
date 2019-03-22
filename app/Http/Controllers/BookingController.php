@@ -36,7 +36,13 @@ class BookingController extends Controller
     public function store(Request $request)
     {
         //
+        $nieuweBooking = new Booking();
+        $nieuweBooking->Aankomst;
+        $nieuweBooking->save();
+        $booking = Booking::where(‘userid’, Auth::user()->id)->get();
+        return view(‘home’, [‘booking’ => $booking]);
     }
+
 
     /**
      * Display the specified resource.
