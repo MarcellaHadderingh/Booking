@@ -70,6 +70,16 @@
                 color:#fff;
                 text-decoration: none;
             }
+            footer {
+                padding: 15px;
+                margin-top: 0px;
+                width: 100%;
+                background: transparent;
+                text-align: center;
+                color: grey;
+                height: auto;
+                position: absolute;
+            }
         </style>
     </head>
     <body>
@@ -104,5 +114,10 @@
                 </div> -->
             </div>
         </div>
+
+        <footer>
+                <p>Copyright &copy; 2019 Hadderingh. Alle rechten voorbehouden.</p>
+            </footer>
+
     </body>
 </html>

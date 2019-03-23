@@ -32,3 +32,14 @@ h3 {
     width: 15%;
     height: auto;
 }
+
+footer {
+    padding: 15px;
+    margin-top: 300px;
+    width: 100%;
+    background: transparent;
+    text-align: center;
+    color: grey;
+    height: auto;
+    position: absolute;
+}

@@ -9,11 +9,20 @@
                 <div class="card-body">
                     <h3>Detailed information</h3>
                     <table>
-                    <tr><th>Booking</th><th>Data</th></tr>
-                    @foreach ($booking as $book)
-                    <tr><td>Start:</td><td>{{ date("Y-m-d H:i:s", $book->start_booking) }}</td></tr>
-                    <tr style="border-bottom: 1px solid black;"><td>Eind:</td><td>{{ date("Y-m-d H:i:s", $book->eind_booking) }}</td></tr>
-                    @endforeach
+                        <tr>
+                            <th>Booking</th>
+                            <th>Data</th>
+                        </tr>
+                        @foreach ($booking as $book)
+                        <tr>
+                            <td>Start:</td>
+                            <td>{{ date("Y-m-d H:i:s", $book->start_booking) }}</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid black;">
+                            <td>Eind:</td>
+                            <td>{{ date("Y-m-d H:i:s", $book->eind_booking) }}</td>
+                        </tr>
+                        @endforeach
                     </table>
                 </div>
             </div>
@@ -21,9 +30,9 @@
     </div>
 </div>
 
+<footer>
+    <p>Copyright &copy; 2019 Hadderingh. Alle rechten voorbehouden.</p>
+</footer>
+
 
 @endsection
-
-
-
-
