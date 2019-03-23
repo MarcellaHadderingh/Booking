@@ -12,8 +12,9 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
+                background-image: url("/image/BgBooking.jpg");
+                background-size: cover;
+                color: #fff;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
@@ -45,16 +46,19 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 100px;
+                text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+                color: white;
+                font: 10em Georgia, serif;
             }
 
             .links > a {
-                color: #636b6f;
+                color: #fff;
                 padding: 0 25px;
-                font-size: 13px;
+                font-size: 18px;
                 font-weight: 600;
                 letter-spacing: .1rem;
-                text-decoration: none;
+                text-decoration: underline;
                 text-transform: uppercase;
             }
 
