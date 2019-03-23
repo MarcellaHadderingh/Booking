@@ -1,4 +1,34 @@
-#input {
-    width: 60%;
-    margin-left: 10px;
+body {
+    background-color: #205088;
+}
+
+.button:hover {
+    background: #6A8DC5;
+    color: #08132C;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    pointer:
+}
+
+.button {
+    background: #08132C;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    width: 100px;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.NavLogo {
+    width: 15%;
+    height: auto;
 }
