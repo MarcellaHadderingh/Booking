@@ -73,7 +73,7 @@ Probeer maar.
 Vervolgens krijg je een melding dat het is opgeslagen, en klik je op overview.
 Hier in zie je dat je hebt geboekt de datums en tijdstippen. Dit word uit de database gehaald.
 
-#Afbeeldingen
+# Afbeeldingen
 
 ![alt text](https://github.com/MarcellaHadderingh/Booking/blob/master/public/image/BookingHome.png?raw=true)
 ![alt text](https://github.com/MarcellaHadderingh/Booking/blob/master/public/image/BookingLogin.png?raw=true)
