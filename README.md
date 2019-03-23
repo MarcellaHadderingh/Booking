@@ -39,18 +39,21 @@ In de map homestead staat homestead.yaml.
 
 Vervolgens pas je je etc/hosts file aan.
 Terminal :sudo vim /etc/hosts
+
 Hier in zet je 192.168.10.10   booking.test.
 
 Als je dat hebt gedaan ga je naar je terminal.
-->cd homestead
-->vagrant up
-->vagrant ssh
--> naar de map waar jij het laravel project hebt staan.
--> artisan migrate
+- -> cd homestead
+- -> vagrant up
+- -> vagrant ssh
+- -> naar de map waar jij het laravel project hebt staan.
+- -> artisan migrate
 
 vervolgens ga je naar je browser en type je http://booking.test/
 
 Nu zie je het Project in je browser.
+
+Je kunt ook natuurlijk je eigen .env file gebruiken.;)
 
 # Handleiding Browser.
 
