@@ -2,7 +2,7 @@
 Bij mijn commits op github heb ik nog meer info geplaatst.
 Vergeet niet hierna te kijken door op de 3 puntjes te klikken.
 
-
+![alt text](https://github.com/MarcellaHadderingh/Booking/blob/master/public/image/GithubCommits.png?raw=true)
 
 # Booking
 
@@ -71,7 +71,12 @@ Hier in zie je dat je hebt geboekt de datums en tijdstippen. Dit word uit de dat
 
 #Afbeeldingen
 
-
+![alt text](https://github.com/MarcellaHadderingh/Booking/blob/master/public/image/BookingHome.png?raw=true)
+![alt text](https://github.com/MarcellaHadderingh/Booking/blob/master/public/image/BookingLogin.png?raw=true)
+![alt text](https://github.com/MarcellaHadderingh/Booking/blob/master/public/image/BookingBooking.png?raw=true)
+![alt text](https://github.com/MarcellaHadderingh/Booking/blob/master/public/image/BookingType.png?raw=true)
+![alt text](https://github.com/MarcellaHadderingh/Booking/blob/master/public/image/BookingSaved.png?raw=true)
+![alt text](https://github.com/MarcellaHadderingh/Booking/blob/master/public/image/BookingOverview.png?raw=true)
 
 
 
