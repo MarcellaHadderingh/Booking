@@ -8,6 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
 
         <!-- Styles -->
         <style>
@@ -15,7 +16,7 @@
                 background-image: url("/image/BgBooking.jpg");
                 background-size: cover;
                 color: #fff;
-                font-family: 'Nunito', sans-serif;
+                font-family: 'Georgia, serif';
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
@@ -49,7 +50,7 @@
                 font-size: 100px;
                 text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
                 color: white;
-                font: 10em Georgia, serif;
+                font: 8em 'Luckiest Guy', cursive;
             }
 
             .links > a {
@@ -64,6 +65,10 @@
 
             .m-b-md {
                 margin-bottom: 30px;
+            }
+            a{
+                color:#fff;
+                text-decoration: none;
             }
         </style>
     </head>
@@ -85,7 +90,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Booking
+                    <a href="/home"> Booking</a>
                 </div>
 
                <!-- <div class="links">
