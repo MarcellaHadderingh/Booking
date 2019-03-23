@@ -3,7 +3,7 @@
 @section('content')
 <div class="container" style="margin-top:70px;">
     <div class="row justify-content-center">
-        <div class="col-md-9">
+        <div class="col-md-8">
             <div class="card">
                 <div class="card-header">Dashboard<div class='float-right'><a href="/test">Overview</a></a></div>
                 </div>
@@ -30,7 +30,6 @@
                             placeholder="Arrival 1/1/2019 12:00" style="margin:0 10px;">
                         <strong>Departure</strong><input type="datetime" name="eind_booking"
                             placeholder=" Departure 2/2/2019 12:00" style="margin:0 10px;">
-                        <strong>How often </strong><input type="number" min="1" max="52" name="hoevaak">
                         <input type="submit" value="save" class="button">
                     </form>
                 </div>
