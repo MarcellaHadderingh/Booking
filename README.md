@@ -1,3 +1,9 @@
+#README VAN DE OPDRACHT LEES EERST DIT GOED DOOR.
+Bij mijn commits op github heb ik nog meer info geplaatst.
+Vergeet niet hierna te kijken door op de 3 puntjes te klikken.
+
+
+
 # Booking
 
 Dit is een opdracht voor Accommodatiehuur BV.
@@ -15,12 +21,59 @@ Maak een systeem waarbij:
 Let op: startdatum en starttijdstip als 1 tijdstip/timestamp opslaan in de database
 Technieken: Laravel, bootstrap 4, mysql, Github
 
-Installation Needed:
-in vagrant box
+#Handleiding Instalatie
+
+In deze handleiding vind je alles voor de instalatie.
+Verder vind je nog een handleiding van het opdracht zelf, als site gebruiker.
+En foto's van de opdracht.
+
+Installatie nodig:
+vagrant box
 Homestead.
 
-Database is homestead.
+In de map homestead staat homestead.yaml.
+ 
+- map: booking.test
+      to: Plaats waar je laravel project staat.
+
+Vervolgens pas je je etc/hosts file aan.
+Terminal :sudo vim /etc/hosts
+Hier in zet je 192.168.10.10   booking.test.
+
+Als je dat hebt gedaan ga je naar je terminal.
+->cd homestead
+->vagrant up
+->vagrant ssh
+-> naar de map waar jij het laravel project hebt staan.
+-> artisan migrate
+
+vervolgens ga je naar je browser en type je http://booking.test/
+
+Nu zie je het Project in je browser.
+
+#Handleiding Browser.
+
+Op de home pagina zie je rechts boven in Login Register.
+Omdat de database leeg is dien je eerst 1 x te registreren.
+
+Vervolgens kom je op de Dashbord.
+Hier in vul je aankomst en vertrek datum/tijd in.
+
+(23-03-2019 11:00) of( 23/02/2019 11:00)
+
+*Let op de datums en tijdstippen kunnen alleen in de toekomst geplaats worden.
+
+Anders krijg je een error.
+Probeer maar.
+
+Vervolgens krijg je een melding dat het is opgeslagen, en klik je op overview.
+Hier in zie je dat je hebt geboekt de datums en tijdstippen. Dit word uit de database gehaald.
+
+#Afbeeldingen
 
 
-#Handleiding
+
+
+
+
 
