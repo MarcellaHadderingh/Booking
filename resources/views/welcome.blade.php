@@ -16,7 +16,7 @@
                 background-image: url("/image/BgBooking.jpg");
                 background-size: cover;
                 color: #fff;
-                font-family: 'Georgia, serif';
+                font-family: 'Luckiest Guy', cursive;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
@@ -57,8 +57,8 @@
                 color: #fff;
                 padding: 0 25px;
                 font-size: 18px;
-                font-weight: 600;
-                letter-spacing: .1rem;
+                font-weight: 100;
+                letter-spacing: .2rem;
                 text-decoration: underline;
                 text-transform: uppercase;
             }
